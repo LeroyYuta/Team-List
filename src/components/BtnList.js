@@ -1,0 +1,53 @@
+export const BtnList = [{
+    'id': '21',
+    'className': 'all',
+    'label': 'All'
+}, {
+    'id': '22',
+    'className': 'design',
+    'label': 'Designers'
+}, {
+    'id': '23',
+    'className': 'analytics',
+    'label': 'Analysts'
+}, {
+    'id': '24',
+    'className': 'management',
+    'label': 'Managers'
+}, {
+    'id': '25',
+    'className': 'ios',
+    'label': 'iOS'
+}, {
+    'id': '26',
+    'className': 'android',
+    'label': 'Android'
+}, {
+    'id': '27',
+    'className': 'qa',
+    'label': 'QA'
+}, {
+    'id': '28',
+    'className': 'back_office',
+    'label': 'Back Office'
+}, {
+    'id': '29',
+    'className': 'frontend',
+    'label': 'Frontend'
+}, {
+    'id': '30',
+    'className': 'hr',
+    'label': 'HR'
+}, {
+    'id': '31',
+    'className': 'pr',
+    'label': 'PR'
+}, {
+    'id': '32',
+    'className': 'backend',
+    'label': 'Backend'
+}, {
+    'id': '33',
+    'className': 'support',
+    'label': 'Support'
+}]

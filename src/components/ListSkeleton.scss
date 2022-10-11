@@ -1,0 +1,12 @@
+.card-skeleton {
+    margin: 16px 0 16px 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .skeleton-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
