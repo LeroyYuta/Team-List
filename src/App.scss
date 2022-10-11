@@ -24,14 +24,14 @@ body {
         height: 40px;
         border: 1px solid transparent;
         border-radius: 16px;
-        background-color: #F7F7F8;
+        background-color: $inputBackColor;
         outline: none;
-        caret-color: #6534FF;
+        caret-color: $inputCaretColor;
 
         &::placeholder {
           font-family: $font;
           font-size: 15px;
-          color: #C3C3C6;
+          color: $placeholderColor;
         }
       }
 
@@ -55,12 +55,12 @@ body {
         border: none;
         background-color: transparent;
         cursor: pointer;
-        color: #bdbdbd;
+        color: $iconColor;
         transition: color 0.15s ease-in-out;
       }
 
       .text-field__aicon:hover {
-        color: #6534FF;
+        color: $iconColorHover;
       }
 
       .icon {
@@ -69,7 +69,7 @@ body {
 
       .icon::before {
         content: '';
-        color: #bdbdbd;
+        color: $iconColor;
         position: absolute;
         display: flex;
         align-items: center;
@@ -99,20 +99,20 @@ body {
         .button-active {
           padding: 8px 12px;
           font-family: $font;
-          color: black !important;
+          color: $btnTextColorActive !important;
           background-color: transparent;
-          border-bottom: 2px solid #6534FF !important;
+          border-bottom: 2px solid $btnActiveBottom !important;
         }
       
         >button {
           padding: 8px 12px;
           font-family: $font;
-          color: #97979B;
+          color: $btnTextColor;
           background-color: transparent;
           border: none;
 
           &:hover {
-            border-bottom: 2px solid #6534FF;
+            border-bottom: 2px solid $btnActiveBottom;
           }
         }
       }
@@ -133,7 +133,7 @@ body {
       .user-info {
         .user-name {
           >span {
-            color: #97979B;
+            color: $userNameSpan;
           }
         }
       }
